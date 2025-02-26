@@ -2,7 +2,7 @@ import pandas as pd
 import streamlit as st
 import plotly.express as plt
 
-dataset = "archive/global_inflation_data.csv"
+dataset = "files/global_inflation_data.csv"
 df = pd.read_csv(dataset)
 
 st.title("Inflation Rate Visualization")
